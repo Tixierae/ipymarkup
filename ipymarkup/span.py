@@ -361,7 +361,7 @@ def format_span_ascii_markup(text, spans, width=70):
 
 def show_span_box_markup(text, spans, **kwargs):
     lines = format_span_box_markup(text, spans, **kwargs)
-    show_html(lines)
+    lines
 
 
 def show_span_line_markup(text, spans, **kwargs):
