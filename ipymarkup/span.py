@@ -215,7 +215,7 @@ def format_span_box_markup(text, spans, palette=PALETTE):
             '<span style="'
             'padding: 2px; '
             'border-radius: 4px; '
-            'border: 1px solid {border}; '
+            'border: 2px solid {border}; '
             'background: {background}'
             '">'.format(
                 background=color.background.value,
@@ -228,7 +228,7 @@ def format_span_box_markup(text, spans, palette=PALETTE):
                 '<span style="'
                 'vertical-align: middle; '
                 'margin-left: 2px; '
-                'font-size: 0.7em; '
+                'font-size: 1em; '
                 'color: {color};'
                 '">'.format(
                     color=color.text.value
